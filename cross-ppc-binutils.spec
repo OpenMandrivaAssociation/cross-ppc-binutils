@@ -37,7 +37,7 @@ Conflicts:	gcc-c++ < 3.2.3-1mdk
 BuildRequires:	autoconf automake bison flex gcc gettext texinfo
 BuildRequires:	dejagnu
 # make check'ing requires libdl.a
-BuildRequires:	glibc-static-devel
+BuildRequires:	glibc-static-devel texinfo
 Patch0:		binutils-2.15.92.0.2-x86_64-testsuite.patch.bz2
 Patch1:		binutils-2.14.90.0.5-testsuite-Wall-fixes.patch.bz2
 Patch2:		binutils-2.14.90.0.5-lt-relink.patch.bz2
